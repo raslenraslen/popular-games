@@ -1,0 +1,46 @@
+.section-wrapper {
+  background-color: var(--color-darkest);
+  border-radius: var(--border-radius-primary);
+  padding: var(--padding-primary);
+  margin-top: var(--margin-primary);
+}
+
+.section-header h4 {
+  font-size: 30px;
+  font-weight: var(--font-weight-bold);
+}
+
+.card-wrapper {
+  background-color: var(--color-dark);
+  border-radius: calc(var(--border-radius-primary) / 2);
+  padding: var(--padding-primary);
+  margin: calc(var(--margin-primary) / 5);
+}
+.most-popular-item-image1 {
+  width: 100%;
+  border-radius: calc(var(--border-radius-primary) / 2);
+  margin-bottom: calc(var(--margin-primary) / 2);
+}
+
+.most-popular-item-content-title h4 {
+  font-size: 14px;
+}
+.most-popular-item-content-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.most-popular-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.most-popular-item {
+  flex: 1 25%;
+}
+
+.most-popular-item-image2 {
+  width: 100%;
+  border-radius: calc(var(--border-radius-primary) / 2);
+  margin-bottom: calc(var(--margin-primary) / 2);
+}
