@@ -1,9 +1,10 @@
 import "./App.css";
 import Header from "./Sections/header/header";
 import Container from "./components/Container/Container";
-/*import Footer from "./components/Footer/footer"; */
+import Footer from "./Sections/Footer/footer";
 import Hero from "./Sections/Hero/hero";
 import Mostpopular from "./Sections/MostPopular/mostPopular";
+import Gaminglibrary from "./Sections/GamingLibrary/GamingLibrary";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Container>
         <Hero />
         <Mostpopular />
+        <Gaminglibrary />
       </Container>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

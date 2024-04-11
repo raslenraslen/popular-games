@@ -1,0 +1,16 @@
+footer p {
+  text-align: center;
+  padding: 30px 0px;
+  color: #fff;
+  font-weight: 300;
+}
+
+footer a {
+  color: #fff;
+  transition: all 0.3s;
+  align: center;
+}
+
+footer p a :hover {
+  color: #fff;
+}
