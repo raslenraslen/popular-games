@@ -1,0 +1,29 @@
+.button a {
+  font-size: 14px;
+  color: aliceblue;
+  border-radius: var(--border-radius-primary);
+  padding: 12px 30px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  height: 500px;
+}
+
+.button-primary a {
+  background-color: #ec6090;
+}
+
+.button-primary a:hover {
+  background-color: #ec6090;
+  color: white;
+}
+
+.button-secondary {
+  color: white;
+  background-color: #ec6090;
+  width: 10%;
+  height: 30%;
+  align-items: center;
+}
+
+.button-secondary a:hover {
+}

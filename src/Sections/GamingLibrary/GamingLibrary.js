@@ -1,5 +1,6 @@
 import React from "react";
 import "./GamingLibrary.css";
+import { SecondaryButton } from "../../components/buttons/buttons";
 
 const Gaminglibrary = () => {
   return (
@@ -30,39 +31,33 @@ const Gaminglibrary = () => {
               <h4> Currently </h4>
               <span>Downloaded </span>
             </li>
-            <div className="main-button">
-              {" "}
-              <a href="ss"> Download </a>{" "}
-            </div>
+            <SecondaryButton>Download </SecondaryButton>
           </u1>
           <u1>
             <li>
               <img
-                src="images/valorant.jpg"
-                style={{ width: "33%", height: "90%" }}
+                src="images/R.png"
+                style={{ width: "37%", height: "90%" }}
                 alt=" "
               ></img>
             </li>
             <li>
-              <h4> Valorant </h4>
-              <span>Riot Games </span>
+              <h4> pes 2013 </h4>
+              <span>Sport </span>
             </li>
             <li>
               <h4> Date Added </h4>
-              <span>13/04/2020 </span>
+              <span>11/04/2013 </span>
             </li>
             <li>
               <h4> Hours played </h4>
-              <span>500h </span>
+              <span>250h </span>
             </li>
             <li>
               <h4> Currently </h4>
-              <span>Downloaded </span>
+              <span>Deleted </span>
             </li>
-            <div className="main-button">
-              {" "}
-              <a href="ss"> Download </a>{" "}
-            </div>
+            <SecondaryButton>Download</SecondaryButton>
           </u1>
         </div>
       </div>

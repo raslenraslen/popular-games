@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="navbar navbar-expand-md  navbar-dark gaming-navbar">
       <div className="container">
-        <a href="#" className="navbar-brand">
+        <a href="/" className="navbar-brand">
           Missaaoui Gaming
           <img
             src="images/logo3.png"
@@ -26,7 +26,7 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="mainmenu">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="#hero" class="nav-link">
+              <a href="/" class="nav-link">
                 Home
               </a>
             </li>
@@ -50,7 +50,7 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#next" class="dropdown-item">
+                  <a href="/profilee" class="dropdown-item">
                     Fortnite
                   </a>
                 </li>
@@ -62,7 +62,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="./index-ar.html" class="nav-link">
+              <a href="./profile" class="nav-link">
                 Profile
               </a>
             </li>

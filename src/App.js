@@ -1,21 +1,23 @@
 import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Sections/header/header";
 import Container from "./components/Container/Container";
 import Footer from "./Sections/Footer/footer";
-import Hero from "./Sections/Hero/hero";
-import Mostpopular from "./Sections/MostPopular/mostPopular";
-import Gaminglibrary from "./Sections/GamingLibrary/GamingLibrary";
-
+import Home from "./pages/home/home";
+import Profile from "./pages/profile/profile";
 function App() {
   return (
     <>
-      <Header />
-      <Container>
-        <Hero />
-        <Mostpopular />
-        <Gaminglibrary />
-      </Container>
-      <Footer />
+      <Router>
+        <Header />
+        <Container>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
+          </Routes>
+        </Container>
+        <Footer />
+      </Router>
     </>
   );
 }

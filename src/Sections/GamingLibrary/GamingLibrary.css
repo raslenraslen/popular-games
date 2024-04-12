@@ -37,3 +37,7 @@
 .libray-gaming-card span {
   font-size: 15px;
 }
+
+.libray-gaming-card li {
+  margin-left: 10px;
+}

@@ -16,10 +16,6 @@
   font-weight: var(--font-weight-bold);
 }
 
-.main-button {
-  font-size: 20px;
-}
-
 .hero-title em {
   font-style: normal;
   color: var(--color-primary);
